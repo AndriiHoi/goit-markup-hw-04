@@ -581,11 +581,10 @@ footer {
 
 .container.ftr {
   display: flex;
-  flex-wrap: wrap;
   align-items: baseline;
 }
 
-.ftr {
+.container .ftr {
   margin-right: 70px;
 }
 
@@ -599,11 +598,11 @@ footer {
   letter-spacing: 0.03em;
 }
 
-.ftr:nth-last-child(-n + 1) {
+.container .ftr:nth-last-child(-n + 1) {
   margin-right: 0;
 }
 
-*/ .visually-hidden {
+.visually-hidden {
   position: absolute;
   clip: rect(0 0 0 0);
 }
